@@ -1,4 +1,4 @@
-const totalCars = 29; // Total car images
+const totalCars = 39; // Total car images
 const carGallery = document.getElementById("carGallery");
 
 document.getElementById("viewCarsBtn").addEventListener("click", () => {
