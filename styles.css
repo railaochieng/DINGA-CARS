@@ -1,0 +1,103 @@
+/* General Styles */
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    background: linear-gradient(135deg, #1f1c2c, #928dab);
+    color: #fff;
+}
+
+header {
+    padding: 20px 0;
+    background: linear-gradient(135deg, #ff7e5f, #feb47b);
+    color: white;
+    box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.2);
+}
+
+header h1 {
+    font-size: 2.5em;
+    margin: 0;
+}
+
+header .highlight {
+    color: #ffcc33;
+    text-shadow: 0 0 10px #ffcc33, 0 0 20px #ffcc33, 0 0 30px #ffcc33;
+}
+
+button {
+    background: linear-gradient(135deg, #1f4037, #99f2c8);
+    color: white;
+    padding: 15px 30px;
+    border: none;
+    border-radius: 25px;
+    font-size: 1.2em;
+    cursor: pointer;
+    outline: none;
+    text-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
+    transition: transform 0.3s, box-shadow 0.3s;
+}
+
+button:hover {
+    transform: scale(1.1);
+    box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.5);
+}
+
+#carGallery {
+    margin-top: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.car-item {
+    background: #2c3e50;
+    border-radius: 15px;
+    margin: 10px;
+    padding: 15px;
+    width: 250px;
+    box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.3);
+    transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.car-item:hover {
+    transform: scale(1.05);
+    box-shadow: 0px 8px 30px rgba(0, 0, 0, 0.5);
+}
+
+.car-item img {
+    width: 100%;
+    border-radius: 10px;
+}
+
+.view-whatsapp {
+    display: block;
+    margin-top: 10px;
+    padding: 10px;
+    background: linear-gradient(135deg, #25d366, #128c7e);
+    text-align: center;
+    text-decoration: none;
+    color: white;
+    border-radius: 5px;
+    font-weight: bold;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
+    transition: background 0.3s, box-shadow 0.3s;
+}
+
+.view-whatsapp:hover {
+    background: linear-gradient(135deg, #128c7e, #25d366);
+    box-shadow: 0px 8px 20px rgba(0, 0, 0, 0.5);
+}
+
+.contact-info {
+    margin-top: 30px;
+    font-size: 1.2em;
+}
+
+footer {
+    margin-top: 30px;
+    padding: 10px 0;
+    background: linear-gradient(135deg, #232526, #414345);
+    color: #bbb;
+    font-size: 0.9em;
+}
